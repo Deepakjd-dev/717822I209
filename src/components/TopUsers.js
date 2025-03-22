@@ -8,7 +8,7 @@ const TopUsers = () => {
     const fetchUsers = async () => {
       try {
         const response = await api.get("/users");
-        setUsers(Object.values(response.data.users).slice(0, 5)); // Top 5 users
+        setUsers(Object.values(response.data.users).slice(0, 5)); 
       } catch (error) {
         console.error("Error fetching users:", error);
       }
