@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import TopUsers from "./pages/TopUsers";
-import TrendingPosts from "./pages/TrendingPosts";
-import LiveFeed from "./pages/LiveFeed";
+import TopUsers from "./components/TopUsers";
+import TrendingPosts from "./components/TrendingPosts";
+import LiveFeed from "./components/LiveFeed";
 
 const App = () => {
   return (
